@@ -36,9 +36,9 @@ Contact qfeixas@energy-tools.net
 ## Errors
 
 port 8080 ocupat:
-    - netstat -ano | findstr :8080
-    - taskkill /PID <PID> /F
+    - netstat -ano | findstr :8080.
+    - taskkill /PID <PID> /F.
 
 node verison (errors amb la versió 18 passar a la 16.18):
-    - https://github.com/coreybutler/nvm-windows/releases
-    - > nvm use 16.18
+    - https://github.com/coreybutler/nvm-windows/releases.
+    - > nvm use 16.18.
