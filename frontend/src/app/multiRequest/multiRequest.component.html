@@ -1,0 +1,20 @@
+<h2 class="lastValue">Last value: <span class="danger">{{ lastValue }}</span></h2>
+<table class="valuesTable">
+  <colgroup span="4"></colgroup>
+
+  <div id="countdown">
+    <ul>
+      <li><span>{{ valueA }}</span>value A</li>
+      <li><span>{{ valueB }}</span>value B</li>
+      <li><span>{{ valueC }}</span>value C</li>
+      <li><span>{{ msTimer }}</span>Time in ms </li>
+    </ul>
+  </div>
+</table><br>
+
+<button class="button" (click)="refresh()">Refresh</button>
+
+<div >
+
+  <app-loading *ngIf="showLoader$"></app-loading>
+</div>
